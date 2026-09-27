@@ -1,0 +1,153 @@
+
+.container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(18, 70px);
+    grid-auto-rows: 70px;
+    gap: 4px;
+
+}
+    .container > div {
+        border: 1px solid #000;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: darkslateblue;
+    }
+
+    .container > div > span {
+        display: block;
+    }
+
+.second-container {
+    margin-top: 50px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(18, 70px);
+    grid-auto-rows: 70px;
+    gap: 4px;
+}
+    .second-container > div {
+        border: 1px solid #000;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .second-container > div:nth-child(-n+15) {
+        background-color: palevioletred;
+    }
+    .second-container > div:nth-child(n+16) {
+        background-color: darkgoldenrod;
+    }
+
+.number {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.symbol {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.name {
+    font-size: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.first {
+    grid-column: 1;
+}
+.second {
+    grid-column: 2;
+}
+.third {
+    grid-column: 3;
+}
+.fourth {
+    grid-column: 4;
+}
+.fifth {
+    grid-column: 5;
+}
+.sixth {
+    grid-column: 6;
+}
+.seventh {
+    grid-column: 7;
+}
+.eighth {
+    grid-column: 8;
+}
+.ninth {
+    grid-column: 9;
+}
+.tenth {
+    grid-column: 10;
+}
+.eleventh {
+    grid-column: 11;
+}
+.twelfth {
+    grid-column: 12;
+}
+.thirteen {
+    grid-column: 13;
+}
+.fourteen {
+    grid-column: 14;
+}
+.fifteen {
+    grid-column: 15;
+}
+.sixteen {
+    grid-column: 16;
+}
+.seventeen {
+    grid-column: 17;
+}
+.eighteen {
+    grid-column: 18;
+}
+
+.container > .first {
+    background-color: darkorange;
+}
+.container > .second {
+    background-color: firebrick;
+}
+.container > .eighteen {
+    background-color: darkblue;
+}
+.container > .seventeen {
+    background-color: lightblue;
+}
+#H, #O, #S, #C, #Se, #N, #P {
+    background-color: dimgrey;
+}
+#B, #Si, #Ge, #As, #Sb, #Te, #Po {
+    background-color: lawngreen;
+}
+#Pb, #In, #Tl, #Bi, #Sn, #Ga, #Al {
+    background-color: green;
+}
+#Og, #Ts, #Fh, #Mc, #Lv, #Nh, #Fl {
+    background-color: lightgreen;
+}
+#star {
+    background-color: palevioletred;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#second_star {
+    background-color: darkgoldenrod;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
