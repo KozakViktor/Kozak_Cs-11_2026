@@ -1,0 +1,186 @@
+.container {
+    width: 772px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Open Sans;
+    background-color: #cad3e6;
+    background-image: linear-gradient(#263149);
+    background-size: 100% 404px;
+    background-repeat: no-repeat;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.div-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.f-flex {
+    display: flex;
+    gap: 11px;
+}
+
+    .f-flex > div {
+        flex-basis: calc((100% - 11px)/2);
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+
+.as {
+    aspect-ratio: 1;
+}
+
+p {
+    font-size: 27px;
+    color: white;
+    font-weight: 600px;
+}
+
+.dolomite {
+    background-image: linear-gradient(#00000066),url("img1/bnbn.jpg");
+    background-size: 100%;
+    background-position: center;
+    grid-area: item-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-flex {
+    display: flex;
+    gap: 11px;
+}
+
+    .s-flex > div {
+        flex-basis: calc((100% - 11px)/2);
+        aspect-ratio: 1;
+    }
+
+.nepal {
+    background-image: linear-gradient(#00000066),url("img1/tt.jpg");
+    ;
+    background-size: 100%;
+    background-position: center;
+    grid-area: item-2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kenia {
+    background-image: linear-gradient(#00000066),url("img1/jhjhjh.jpg");
+    ;
+    background-size: 100%;
+    background-position: center;
+    grid-area: item-3;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Iceland {
+    background-image: linear-gradient(#00000066),url("img1/jkkjjk.jpg");
+    ;
+    background-size: 100%;
+    background-position: center;
+    grid-area: item-4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Ethiopia {
+    background-image: linear-gradient(#00000066),url("img1/rtrt.jpg");
+    ;
+    background-size: 100%;
+    background-position: center;
+    grid-area: item-5;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Zeland {
+    background-image: linear-gradient(#00000066),url("img1/nbn.jpg");
+    ;
+    background-size: 100%;
+    background-position: center;
+    grid-area: item-6;
+    ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+        "item-1 item-1 item-4 item-5"
+        "item-1 item-1 item-6 item-6"
+        "item-2 item-3 item-6 item-6";
+    gap: 11px;
+}
+
+.text-flex {
+    font-size: 39px;
+    font-weight: 600px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.span-flex {
+    color: #ff3819;
+    position: relative;
+    margin-left: 64px;
+}
+
+    .span-flex::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: -45px;
+        width: 40px;
+        height: 40px;
+        background-image: url("img1/image-removebg-preview.png");
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
